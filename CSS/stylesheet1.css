@@ -2,49 +2,32 @@
 /* CSS Document */
 
 .icon-bar {
-  background-color: #333;
   width: 100%;
+  background-color: #999;
+  overflow: auto;
 }
 
 .icon-bar a {
+  float: left;
   text-align: center;
   width: 20%;
+  padding: 12px 0;
   transition: all 0.3s ease;
   color: white;
+  font-size: 36px;
 }
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: #888;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #888;
 }
-
-
-
 
 .btn {
-  border: none; /* Remove borders */
-  color: white; /* Add a text color */
-  padding: 14px 28px; /* Add some padding */
-  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
 }
-
-.success {background-color: #4CAF50;} /* Green */
-.success:hover {background-color: #46a049;}
-
-.info {background-color: #2196F3;} /* Blue */
-.info:hover {background: #0b7dda;}
-
-.warning {background-color: #ff9800;} /* Orange */
-.warning:hover {background: #e68a00;}
-
-.danger {background-color: #f44336;} /* Red */
-.danger:hover {background: #da190b;}
-
-.default {background-color: #e7e7e7; color: black;} /* Gray */
-.default:hover {background: #ddd;}
-
-
- 
